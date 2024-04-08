@@ -1,0 +1,41 @@
+# Ignore compiled Python files
+*.pyc
+__pycache__
+
+# Ignore the virtual environment
+venv/
+env/
+
+# Ignore Docker specific files
+.dockerignore
+docker-compose.override.yml
+
+# Ignore database files
+*.sqlite3
+*.sql
+
+# Ignore local settings
+local_settings.py
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore static files
+staticfiles/
+
+# Ignore media files
+media/
+
+# Ignore secret files
+*.secret
+
+# Ignore IDE specific files
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.idea/
+
+
+/data
+
